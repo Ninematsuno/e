@@ -10,7 +10,8 @@ from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
 from EmiliaAnimeBot.modules.helper_funcs.chat_status import (bot_admin, can_pin,
                                                            can_promote,
                                                            connection_status,
-                                                           user_admin)
+                                                           user_admin,
+                                                           ADMIN_CACHE)
 from EmiliaAnimeBot.modules.helper_funcs.extraction import (extract_user,
                                                           extract_user_and_text)
 from EmiliaAnimeBot.modules.log_channel import loggable
