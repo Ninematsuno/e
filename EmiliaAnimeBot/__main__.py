@@ -58,10 +58,10 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT ="""
 𝘏𝘰𝘭𝘢 There {}
-
 [∆𝕴 𝖆𝖒 𝕸𝖎𝖓𝖆𝖙𝖔 𝖆𝖐𝖆 𝖀𝖗 𝖄𝖊𝖑𝖑𝖔𝖜 𝖋𝖑𝖆𝖘𝖍 ∆](https://telegra.ph/file/af3b555514ee92666e95d.jpg)
 ━━━━━━━━━━━━━━━━━━━━━━
-This is a highly featured weebish style group management bot made by some weebs to help other weebs
+This is a highly featured weebish style group management
+ bot made by some weebs to help other weebs
 Press /help to see what this pro bot can do
 ━━━━━━━━━━━━━━━━━━━━━━
 Since `{}` , I am protecting `{}` users
@@ -83,7 +83,7 @@ buttons = [
 
 HELP_STRINGS ="""
 `Hey there! My name is` [Minato namikaze]({https://telegra.ph/file/c64faeb5ca0f9885c8ab1.jpg}) 
-I have Quite a Few Features, Go Ahead and Check out!"""
+I have Quite a Few Features, Go Ahead and Check out and see my power!"""
 
 IMPORTED = {}
 MIGRATEABLE = []
