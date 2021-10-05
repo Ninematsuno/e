@@ -83,7 +83,17 @@ buttons = [
 
 HELP_STRINGS ="""
 `Hey there! My name is` [Minato namikaze]({https://telegra.ph/file/c64faeb5ca0f9885c8ab1.jpg}) 
-I have Quite a Few Features, Go Ahead and Check out and see my power!"""
+━━━━━━━━━━━━━━━━━━━━━━━━
+Tʀᴜsᴛ  In my power
+━━━━━━━━━━━━━━━━━━━━━━━━
+Main commands available:
+ ❍ /start: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
+ ❍ /help: Usᴇ Tʜɪs... Iꜰ Yᴏᴜ Nᴇᴇᴅ Mᴏʀᴇ Iɴꜰᴏ Aʙᴏᴜᴛ Mᴇ!
+ ━━━━━━━━━━━━━━━━━━━━━━━━
+ For Issues Report At @minato_support
+ ━━━━━━━━━━━━━━━━━━━━━━━━
+All commands can either be used with / or !.
+And the following: """
 
 IMPORTED = {}
 MIGRATEABLE = []
