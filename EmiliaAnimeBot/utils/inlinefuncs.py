@@ -120,7 +120,7 @@ async def alive_function(answers):
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
-            description="Check Emilia's Stats",
+            description="Check Minato's Stats",
             thumb_url="https://static2.aniimg.com/upload/20170515/414/c/d/7/cd7EEF.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
@@ -826,3 +826,4 @@ async def cancel_task_button(_, query: CallbackQuery):
             query.inline_message_id,
             keyb,
         )
+#lmao
