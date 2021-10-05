@@ -437,6 +437,17 @@ def adminlist(update, context):
         return
 
 
+@run_async
+@user_admin
+def refresh_admin(update, _):
+    try:
+        ADMIN_CACHE.pop(update.effective_chat.id)
+    except KeyError:
+        pass
+
+    update.effective_message.reply_text("Admins cache refreshed!")
+
+
 __help__ = """
  • `/admins`*:* list of admins in the chat
 
@@ -468,20 +479,21 @@ INVITE_HANDLER = DisableAbleCommandHandler("invitelink", invite)
 
 PROMOTE_HANDLER = DisableAbleCommandHandler("promote", promote)
 DEMOTE_HANDLER = DisableAbleCommandHandler("demote", demote)
-
+ADMINCACHE_HNDLR = DisableAbleCommandHandler("refresh", refresh_admin)
 SET_TITLE_HANDLER = CommandHandler("title", set_title)
 
 dispatcher.add_handler(ADMINLIST_HANDLER)
 dispatcher.add_handler(PIN_HANDLER)
 dispatcher.add_handler(UNPIN_HANDLER)
+dispatcher.add_handler(ADMINCACHE_HNDLR)
 dispatcher.add_handler(INVITE_HANDLER)
 dispatcher.add_handler(PROMOTE_HANDLER)
 dispatcher.add_handler(DEMOTE_HANDLER)
 dispatcher.add_handler(SET_TITLE_HANDLER)
 
 __mod_name__ = "Admin"
-__command_list__ = ["adminlist", "admins", "invitelink", "promote", "demote"]
+__command_list__ = ["adminlist", "admins", "invitelink", "promote", "refresh", "demote"]
 __handlers__ = [
     ADMINLIST_HANDLER, PIN_HANDLER, UNPIN_HANDLER, INVITE_HANDLER,
-    PROMOTE_HANDLER, DEMOTE_HANDLER, SET_TITLE_HANDLER
+    PROMOTE_HANDLER, DEMOTE_HANDLER, SET_TITLE_HANDLER, ADMINCACHE_HNDLR
 ]
