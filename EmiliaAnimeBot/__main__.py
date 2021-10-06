@@ -82,18 +82,20 @@ buttons = [
 ]
 
 HELP_STRINGS ="""
-`Hey there! My name is` [Minato namikaze]({https://telegra.ph/file/c64faeb5ca0f9885c8ab1.jpg}) 
+
+`Hey there!` My name is [Minato namikaze](https://telegra.ph/file/c64faeb5ca0f9885c8ab1.jpg) 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Tʀᴜsᴛ  In my power
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Main commands available:
- ❍ /start: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
- ❍ /help: Usᴇ Tʜɪs... Iꜰ Yᴏᴜ Nᴇᴇᴅ Mᴏʀᴇ Iɴꜰᴏ Aʙᴏᴜᴛ Mᴇ!
+ ❍ `/start`: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
+ ❍ `/help`: Usᴇ Tʜɪs... Iꜰ Yᴏᴜ Nᴇᴇᴅ Mᴏʀᴇ Iɴꜰᴏ Aʙᴏᴜᴛ Mᴇ!
  ━━━━━━━━━━━━━━━━━━━━━━━━
  For Issues Report At @minato_support
  ━━━━━━━━━━━━━━━━━━━━━━━━
 All commands can either be used with / or !.
-And the following: """
+And the following: 
+"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -145,7 +147,7 @@ for module_name in ALL_MODULES:
 def send_help(chat_id, text, keyboard=None):
     if not keyboard:
         keyboard = InlineKeyboardMarkup(paginate_modules(0, HELPABLE, "help"))
-        dispatcher.bot.send_message(
+    dispatcher.bot.send_message(
         chat_id=chat_id,
         text=text,
         parse_mode=ParseMode.MARKDOWN,
