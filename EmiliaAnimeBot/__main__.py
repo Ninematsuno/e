@@ -82,12 +82,11 @@ buttons = [
 ]
 
 HELP_STRINGS ="""Hey there! Minato namikaze  again
-━━━━━━━━━━━━━━━━━━━━━━━━
+
 Main commands available:
  ❍ /start: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
- ━━━━━━━━━━━━━━━━━━━━━━━━
+
  For Issues Report At @minato_support
- ━━━━━━━━━━━━━━━━━━━━━━━━
 """
 
 IMPORTED = {}
