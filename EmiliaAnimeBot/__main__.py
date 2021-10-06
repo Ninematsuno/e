@@ -83,11 +83,7 @@ buttons = [
 
 HELP_STRINGS ="""
 hey there! Minato namikaze  again
-Trust in my power
-Main commands available:
- ❍/start: Check Me... If i am alive or not
- ❍/help: use this.. if you need more info about me
-For issues report at @minato_support
+
 """
 
 IMPORTED = {}
