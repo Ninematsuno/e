@@ -81,8 +81,7 @@ buttons = [
     ],
 ]
 
-HELP_STRINGS ="""
-
+HELP_STRINGS =r"""
 `Hey there!` My name is [Minato namikaze](https://telegra.ph/file/c64faeb5ca0f9885c8ab1.jpg) 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Tʀᴜsᴛ  In my power
