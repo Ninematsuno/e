@@ -82,18 +82,7 @@ buttons = [
 ]
 
 HELP_STRINGS =r"""
-`Hey there!` My name is [Minato namikaze](https://telegra.ph/file/c64faeb5ca0f9885c8ab1.jpg) 
-━━━━━━━━━━━━━━━━━━━━━━━━
-Tʀᴜsᴛ  In my power
-━━━━━━━━━━━━━━━━━━━━━━━━
-Main commands available:
- ❍ `/start`: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
- ❍ `/help`: Usᴇ Tʜɪs... Iꜰ Yᴏᴜ Nᴇᴇᴅ Mᴏʀᴇ Iɴꜰᴏ Aʙᴏᴜᴛ Mᴇ!
- ━━━━━━━━━━━━━━━━━━━━━━━━
- For Issues Report At @minato_support
- ━━━━━━━━━━━━━━━━━━━━━━━━
-All commands can either be used with / or !.
-And the following: 
+This is a test by izumi
 """
 
 IMPORTED = {}
