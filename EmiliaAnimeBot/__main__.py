@@ -81,7 +81,7 @@ buttons = [
     ],
 ]
 
-HELP_STRINGS =r"""
+HELP_STRINGS ="""
 This is a test by izumi
 """
 
