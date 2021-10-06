@@ -81,11 +81,13 @@ buttons = [
     ],
 ]
 
-HELP_STRINGS ="""
-`Hey there!` My name is [Minato namikaze](https://telegra.ph/file/c64faeb5ca0f9885c8ab1.jpg) 
-========================\nTʀᴜsᴛ  In my power\n=======================\nMain commands available:\n ❍ `/start`: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ\n ❍ `/help`: Usᴇ Tʜɪs... Iꜰ Yᴏᴜ Nᴇᴇᴅ Mᴏʀᴇ Iɴꜰᴏ Aʙᴏᴜᴛ Mᴇ!\n
-========================\\n
-For Issues Report At @minato_support\n========================\nAll commands can either be used with / or !. 
+HELP_STRINGS ="""Hey there! Minato namikaze  again
+━━━━━━━━━━━━━━━━━━━━━━━━
+Main commands available:
+ ❍ /start: Cʜᴇᴄᴋ Mᴇ... Iꜰ I Aᴍ Aʟɪᴠᴇ Oʀ Nᴏᴛ
+ ━━━━━━━━━━━━━━━━━━━━━━━━
+ For Issues Report At @minato_support
+ ━━━━━━━━━━━━━━━━━━━━━━━━
 """
 
 IMPORTED = {}
