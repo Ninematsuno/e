@@ -1,4 +1,5 @@
 future
+cloudscraper
 fuzzysearch
 countryinfo
 emoji
