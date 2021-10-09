@@ -65,33 +65,26 @@ You can either use /help or the Commands Button Given Below To get a list of my 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕Add me to your group",url=f"t.me/{BOT_USERNAME}?startgroup=true"
-        ),
-    ],
-    [
+            text="➕ Add Me", url="t.me/FoundingTitanRobot?startgroup=true"),    
         InlineKeyboardButton(
-          text="🔰Commands", callback_data="help_back"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-          text="📮 Updates", url="https://t.me/updates_channel_minato"
-        ),
-    ],
-         
-    [
+              text="⚙️ Help", callback_data="help_back"),   
+   ],
+    [      
        InlineKeyboardButton(
-           text="⚫usage", url="https://t.me/updates_channel_minato"
+            text="📖 Quick Setup", url="https://t.me/foundingtitanupdates/4"),        
+          InlineKeyboardButton(
+            text="📋 ChangeLogs", url="https://t.me/FoundingTitanupdates"),
+    
+   ],
+    [      
+          InlineKeyboardButton(
+            text="🗣️ Support", url="https://t.me/Foundingtitansupport"),
+          InlineKeyboardButton(
+            text="🌐 Nexus Network", url="https://t.me/Nexus_Network",
+    
          ),
     ],
-    [
-        InlineKeyboardButton(
-          text="🈷️ support", url="https://t.me/minato_support" # If you have a bit of dignity left in you, Do NOT Remove this Button
-        ),
-     
-    ],
-]
-
+] 
 
 HELP_STRINGS ="""
 `Hey there! My name is` [Minato namikaze]({https://telegra.ph/file/c64faeb5ca0f9885c8ab1.jpg}) 
